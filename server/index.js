@@ -1,31 +1,33 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const {db, aboutGameFeatures} = require('../db/index.js');
-
 const app = express();
+const cors = require('cors');
 
-app.use(express.static('public'))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use('/', express.static('public'));
+app.use('/:gameId', express.static('public'));
 
-// app.get('/', (req, res) => {
-//   res.send('testing get request');
-// });
+app.use(cors());
 
-
-app.get('/api/features', function (req, res){
-  // console.log('testing get');
-  // res.end();
-  aboutGameFeatures(function(err, data){
+app.get('/api/features/:gameId', function (req, res){
+  console.log('made it'); //not logging
+  console.log('req.params ', req.params); //not logging
+  aboutGameFeatures(req.params.gameId, (err, data) => {
+    console.log()
     if(err){
       console.log(err)
     }else{
       res.send(JSON.stringify(data));
     }
-  })
+  
+  });
 });
 
-const port = 3003;
+
+
+const port = 8081;
 app.listen(port, () => {
   console.log(`App listening on ${port}`);
 });

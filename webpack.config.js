@@ -12,25 +12,11 @@ module.exports = {
           }
         }
       },
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              sourceMap: true,
-              modules: true
-            }
-          }
-        ]
-      }
     ]
   },
    output: {
     filename: 'bundle.js',
     path: __dirname + '/public'
-  }
+  },
 };
+
