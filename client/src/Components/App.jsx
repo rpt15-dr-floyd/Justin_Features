@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import Features from './Features.jsx';
+// import Features from './Features.jsx';
 import AboutBody from './AboutBody.jsx';
-import styles from '../../../public/style.css';
+// import styles from '../../../public/style.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -30,9 +30,10 @@ class App extends React.Component {
     console.log('this.state.gameId', this.state.gameId);
     // axios.get(`/api/features/${this.state.gameId}`)
     axios
-      .get(
-        `http://my-env.wf8cymc59m.us-west-1.elasticbeanstalk.com/api/features/1`
-      )
+      // .get(
+      //   `http://my-env.wf8cymc59m.us-west-1.elasticbeanstalk.com/api/features/1`
+      // )
+      .get(`/api/features/${this.state.gameId}`)
 
       .then(res => {
         // handle data
