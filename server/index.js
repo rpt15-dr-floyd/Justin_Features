@@ -1,19 +1,25 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { db, aboutGameFeatures, createGameFeatures } = require('../db/index.js');
+const {
+  db,
+  aboutGameFeatures,
+  createGameFeatures,
+  updateGameFeatures,
+  deleteGame
+} = require('../db/index.js');
 const app = express();
 const cors = require('cors');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/', express.static('public'));
-// app.use('/:gameId', express.static('public'));
+app.use('/:gameId', express.static('public'));
 
 app.use(cors());
 
 app.get('/api/features/:gameId?', function(req, res) {
-  console.log('req.params ', req.params); //not logging
-  aboutGameFeatures(req.params.gameId, (err, data) => {
+  let gameId = req.params.gameId;
+  aboutGameFeatures(gameId, (err, data) => {
     if (err) {
       console.log(err);
     } else {
@@ -24,19 +30,38 @@ app.get('/api/features/:gameId?', function(req, res) {
 
 app.post('/api/features/', (req, res) => {
   let newGame = req.body;
-  console.log('this is the new game', newGame);
   createGameFeatures(newGame, err => {
     if (err) {
       console.log(err);
     } else {
-      res.status(202).send('you have created a new game in the database');
+      res.status(201).send('you have created a new game in the database');
     }
   });
 });
 
-app.put('/api/features/:gameId', (req, res) => {});
+app.put('/api/features/:gameId', (req, res) => {
+  let updateGame = req.body;
+  updateGameFeatures(updateGame, err => {
+    if (err) {
+      console.log(err);
+    } else {
+      res
+        .status(202)
+        .send(`you have updated updated game id ${updateGame.gameId}`);
+    }
+  });
+});
 
-app.delete('/api/features/:gameId', (req, res) => {});
+app.delete('/api/features/:gameId', (req, res) => {
+  let id = req.params.gameId;
+  deleteGame(id, err => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.status(202).send(`you have deleted game id ${id}`);
+    }
+  });
+});
 
 const port = 8081;
 app.listen(port, () => {
