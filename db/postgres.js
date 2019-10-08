@@ -2,7 +2,8 @@ const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize('feature', 'postgres', 'root', {
   host: 'localhost',
-  dialect: 'postgres' /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
+  dialect: 'postgres',
+  logging: false
 });
 
 sequelize
@@ -16,10 +17,10 @@ sequelize
 
 const Game = sequelize.define('game', {
   id: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true },
-  aboutHeader: { type: Sequelize.STRING(300) },
-  aboutBody: { type: Sequelize.STRING(300) },
-  featureTitle: { type: Sequelize.STRING(300) },
-  features: { type: Sequelize.STRING(300) }
+  aboutHeader: { type: Sequelize.STRING },
+  aboutBody: { type: Sequelize.STRING },
+  featureTitle: { type: Sequelize.STRING },
+  features: { type: Sequelize.STRING }
 });
 
 // sequelize.sync({ force: true }).then(() => {
