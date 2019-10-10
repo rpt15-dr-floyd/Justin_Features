@@ -23,9 +23,6 @@ const Game = sequelize.define('game', {
   features: { type: Sequelize.STRING }
 });
 
-// sequelize.sync({ force: true }).then(() => {
-//   console.log(`Database & tables created!`);
-// });
 
 module.exports = {
   Game

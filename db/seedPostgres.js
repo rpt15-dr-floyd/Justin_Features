@@ -1,6 +1,5 @@
 const { Game } = require('./postgres.js');
 const faker = require('faker');
-var async = require('async');
 
 const postgresDataSeed = (index, target) => {
   if (index < target / 1000) {

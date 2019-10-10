@@ -9,7 +9,9 @@
     "start": "nodemon server/index.js",
     "webpack": "webpack -d --watch",
     "seedPostgres": "node db/seedPostgres.js",
-    "couchDBSeed": "node db/couchDBseed.js"
+    "couchDBSeed": "node db/couchDBseed.js",
+    "postGresServer": "nodemon server/indexPostgres.js",
+    "couchDBServer": "nodemon server/indexCouchDB.js"
   },
   "repository": {
     "type": "git",

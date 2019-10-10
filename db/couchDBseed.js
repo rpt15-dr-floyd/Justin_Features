@@ -45,3 +45,5 @@ const seedCouchDB = (start, numOfDocs) => {
 };
 
 seedCouchDB(0, 10000000);
+
+module.exports = features;
