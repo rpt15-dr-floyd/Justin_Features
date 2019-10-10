@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+- https://github.com/teamName/repo
+- https://github.com/teamName/repo
+- https://github.com/teamName/repo
+- https://github.com/teamName/repo
 
 ## Table of Contents
 
@@ -36,3 +36,14 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
+
+### 1.1 API endpoints
+
+- `GET /api/features/:gameId?`
+  - returns data for specific id ( aboutHeader, aboutBody, featureTitle, features)
+- `POST '/api/features/`
+  - post a new game to specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
+- `PUT /api/features/:gameId?`
+  - updates game with specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
+- `DELETE /api/features/:gameId?`
+  - deletes game with specified id
