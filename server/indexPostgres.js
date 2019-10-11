@@ -28,9 +28,9 @@ app.get('/api/features/:gameId?', (req, res) => {
 app.post('/api/features', (req, res) => {
   let newGame = req.body;
 
-  Game.update({ where: { id: gameId }, newGame })
+  Game.upsert({ newGame })
     .then(() => {
-      res.status(202).send(`you have updated ${newGame.id}`);
+      res.status(202).send(`you have inserted ${newGame}`);
     })
     .catch(err => {
       console.log(err);
@@ -40,18 +40,25 @@ app.post('/api/features', (req, res) => {
 app.put('/api/features/:gameId?', (req, res) => {
   let gameId = req.params.gameId;
   let updateGame = req.body;
+  console.log('game id', gameId, 'updateGame', updateGame);
 
-  Game.update({ id: gameId }, updateGame).then(() => {
-    res
-      .status(202)
-      .send(`you have updated updated game id ${updateGame.gameId}`);
+  Game.update(
+    {
+      aboutHeader: updateGame.aboutHeader,
+      aboutBody: updateGame.aboutBody,
+      featureTitle: updateGame.featureTitle,
+      features: updateGame.features
+    },
+    { where: { id: gameId } }
+  ).then(() => {
+    res.status(202).send(`you have updated updated game id ${gameId}`);
   });
 });
 
 app.delete('/api/features/:gameId', (req, res) => {
   let id = req.params.gameId;
 
-  Game.destroy({ id: gameId }).then(() => {
+  Game.destroy({ where: { id: id } }).then(() => {
     res.status(202).send(`you have deleted id ${id}`);
   });
 });

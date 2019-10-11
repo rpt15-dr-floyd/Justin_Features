@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const nano = require('nano')('http://localhost:5984');
 const features = nano.db.use('features');
 
+// console.log(features);
+
 const app = express();
 const cors = require('cors');
 
@@ -19,8 +21,13 @@ app.get('/api/features/:gameId?', (req, res) => {
   let gameId = req.params.gameId;
 
   features
-    .find({ id: gameId })
+    .find({
+      selector: {
+        featureTitle: { $eq: 'Odio hic ad.' }
+      }
+    })
     .then(doc => {
+      console.log('then block');
       res.status(200).send(doc);
     })
     .catch(err => {
