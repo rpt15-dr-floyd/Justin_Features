@@ -9,7 +9,8 @@ const {
 } = require('../db/index.js');
 const app = express();
 const cors = require('cors');
-const { Game } = require('../db/postgres.js')
+const { Game } = require('../db/postgres.js');
+const newRelic = require('newrelic');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

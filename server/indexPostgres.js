@@ -1,5 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const newRelic = require('newrelic');
+
 
 const { Game } = require('../db/postgres.js');
 

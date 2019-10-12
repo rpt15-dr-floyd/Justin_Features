@@ -7,7 +7,10 @@ const seedCouchDB = (start, numOfDocs) => {
   if (start < numOfDocs / 1000) {
     let bulkData = [];
     for (let i = 0; i < 1000; i++) {
+      let uniqueIdentifier = start * 1000 + i + 1;
+
       bulkData.push({
+        _id: uniqueIdentifier.toString(),
         aboutHeader: faker.lorem.sentence(),
         aboutBody: faker.lorem
           .paragraph(

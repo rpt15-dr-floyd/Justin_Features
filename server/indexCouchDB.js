@@ -1,10 +1,10 @@
+require('newrelic');
 const express = require('express');
 const bodyParser = require('body-parser');
 
+
 const nano = require('nano')('http://localhost:5984');
 const features = nano.db.use('features');
-
-// console.log(features);
 
 const app = express();
 const cors = require('cors');
@@ -20,58 +20,94 @@ app.use(cors());
 app.get('/api/features/:gameId?', (req, res) => {
   let gameId = req.params.gameId;
 
-  features
-    .find({
-      selector: {
-        featureTitle: { $eq: 'Odio hic ad.' }
+  //selector, _id and $eq need to be wrapped in double quotations
+  const q = {
+    "selector": {
+      "_id": {
+        "$eq": gameId
       }
-    })
+    }
+  };
+
+  console.log(gameId)
+  features
+    .find(q)
     .then(doc => {
-      console.log('then block');
-      res.status(200).send(doc);
+      res.status(200).send(doc.docs[0]);
     })
     .catch(err => {
       console.log(err);
     });
 });
 
+
+
 app.post('/api/features/', (req, res) => {
   let newGame = req.body;
+  let newId = null
 
-  features.insert(newGame, (err, body) => {
-    if (err) {
-      console.log(err);
-    } else {
-      res.status(202).send(`you have updated ${newGame.id}`);
-    }
-  });
+  nano.db.get('features').then((doc) => {
+    newId = (doc.doc_count + 1).toString()
+    newGame._id = newId
+    features.insert(newGame, (err, body) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.status(202).send(`you have updated ${newGame._id}`);
+      }
+    })
+  }).catch(err => { console.log(err) })
+
+
+
 });
 
 app.put('/api/features/:gameId?', (req, res) => {
   let gameId = req.params.gameId;
   let updateGame = req.body;
 
-  features.insert({ id: gameId }, updateGame, (err, body) => {
-    if (err) {
-      console.log(err);
-    } else {
-      res
-        .status(202)
-        .send(`you have updated updated game id ${updateGame.gameId}`);
+  const q = {
+    "selector": {
+      "_id": {
+        "$eq": gameId
+      }
     }
-  });
+  };
+
+  features
+    .find(q)
+    .then(doc => {
+      let ref = doc.docs[0]._rev
+      features.insert({ _id: gameId, _rev: ref, aboutHeader: updateGame.aboutHeader, aboutBody: updateGame.aboutHeader, featureTitle: updateGame.featureTitle, features: updateGame.features }).then((body) => {
+        res.status(202).send(`you have updated ${gameId}`)
+      }).catch(err => { console.log(err) })
+    })
+    .catch(err => {
+      console.log(err);
+    });
 });
 
 app.delete('/api/features/:gameId?', (req, res) => {
-  let id = req.params.gameId;
-
-  features.destroy(id, (err, body) => {
-    if (err) {
-      console.log(err);
-    } else {
-      res.status(202).send(`you have deleted id ${id}`);
+  let gameId = req.params.gameId;
+  const q = {
+    "selector": {
+      "_id": {
+        "$eq": gameId
+      }
     }
-  });
+  };
+
+  features
+    .find(q)
+    .then(doc => {
+      let ref = doc.docs[0]._rev
+      features.destroy(gameId, ref).then((body) => {
+        res.status(202).send(`you have deleted ${gameId}`)
+      }).catch(err => { console.log(err) })
+    })
+    .catch(err => {
+      console.log(err);
+    });
 });
 
 const port = 1235;
