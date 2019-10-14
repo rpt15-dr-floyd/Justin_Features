@@ -1,0 +1,29 @@
+config:
+  target: 'http://localhost:1234'
+  phases:
+    # - duration: 60
+    #   arrivalRate: 60
+    #   name: "1 rps"
+    # - duration: 60
+    #   arrivalRate: 600
+    #   name: "10 rps"
+    #  - duration: 60
+    #    arrivalRate: 6000
+    #    name: "100 rps"
+      - duration: 60
+        arrivalRate: 60000
+        name: "1000 rps"
+  defaults:
+    # headers:
+    #   x-my-service-auth: '987401838271002188298567'
+scenarios:
+  - flow:
+    # - get:
+    #     url: "/api/features/{{$randomNumber(9000000,10000000)}}"
+    - post:
+        url: "/api/features/"
+        json:
+          aboutHeader: "{{"testString"}}"
+          aboutBody: "{{"testString"}}"
+          featuresTitle: "{{"testString"}}"
+          features: "{{"testString"}}"
