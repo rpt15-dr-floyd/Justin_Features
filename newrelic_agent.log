@@ -4276,3 +4276,72 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":28727,"time":"2019-10-23T02:54:02.849Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":28727,"time":"2019-10-23T02:54:02.850Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":28727,"time":"2019-10-23T02:54:02.850Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:06.431Z","msg":"Using New Relic for Node.js. Agent version: 5.13.1; Node version: v11.6.0."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:06.568Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/express/index.js\n\tq: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/qs/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:06.568Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:06.695Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:06.695Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:09.843Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:09.843Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID BdjjJ5zf0MWpACYsGAvVpY1dr8PUAAgBAAAnIQEAAHLvAgQL1aWLAwAGNS4xMy4xAAtKdXN0aW5zLU1CUAAIRmVhdHVyZXM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:09.843Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2501656/applications/198550923","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:09.844Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":60000,\"harvest_limits\":{\"error_event_data\":100,\"custom_event_data\":1000,\"analytic_event_data\":10000}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:09.848Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.849Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.850Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.851Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.852Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.852Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.852Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29423,"time":"2019-10-23T03:05:10.853Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:55.527Z","msg":"Using New Relic for Node.js. Agent version: 5.13.1; Node version: v11.6.0."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:55.652Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/express/index.js\n\tq: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/qs/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:55.652Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:55.798Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:55.798Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:58.441Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:58.441Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID BWYc8ujabzMuACYsGAvVpY1dr8PUAAgBAAAnIQEAAHMZAgQL1aWLAwAGNS4xMy4xAAtKdXN0aW5zLU1CUAAIRmVhdHVyZXM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:58.441Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2501656/applications/198550923","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:58.442Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":60000,\"harvest_limits\":{\"error_event_data\":100,\"custom_event_data\":1000,\"analytic_event_data\":10000}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:58.446Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.450Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.450Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.452Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.453Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.453Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.453Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:05:59.453Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.532Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.534Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.536Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.537Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.537Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:06:59.539Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.535Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.538Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.539Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.539Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.539Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:07:59.540Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.538Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.540Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.540Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.540Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.540Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29465,"time":"2019-10-23T03:08:59.540Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:09:27.612Z","msg":"Using New Relic for Node.js. Agent version: 5.13.1; Node version: v11.6.0."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:09:30.378Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/express/index.js\n\tq: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/qs/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:09:30.379Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:09:35.679Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:09:35.680Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:20.056Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:20.056Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID Bf444Crk2f3rACYsGAvVpY1dr8U8AAgBAAAnIQEAAHOrAgQL1aWLAwAGNS4xMy4xAAtKdXN0aW5zLU1CUAAIRmVhdHVyZXM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:20.056Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2501656/applications/198550923","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:20.058Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":60000,\"harvest_limits\":{\"error_event_data\":100,\"custom_event_data\":1000,\"analytic_event_data\":10000}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:20.065Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.071Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.072Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.077Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.078Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.078Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.079Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":29611,"time":"2019-10-23T03:11:21.079Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}

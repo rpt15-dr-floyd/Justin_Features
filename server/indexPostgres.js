@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const newRelic = require('newrelic');
 
-
 const { Game } = require('../db/postgres.js');
 
 const app = express();
@@ -12,6 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/', express.static('public'));
 
+app.use('/', express.static('public'));
 app.use('/:gameId', express.static('public'));
 
 app.use(cors());
@@ -65,7 +65,7 @@ app.delete('/api/features/:gameId', (req, res) => {
   });
 });
 
-const port = 1234;
+const port = 8081;
 app.listen(port, () => {
   console.log(`Justin's App listening on ${port} for Postgres DB`);
 });
