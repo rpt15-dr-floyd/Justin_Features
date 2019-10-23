@@ -27,7 +27,7 @@ class App extends React.Component {
   getAboutThisGameFeaturesData() {
     // console.log('getAbouthisGameFeaturesData is ran'); //console log works
 
-    console.log('this.state.gameId', this.state.gameId);
+    // console.log('this.state.gameId', this.state.gameId);
     // axios.get(`/api/features/${this.state.gameId}`)
     axios
       // .get(
@@ -51,11 +51,8 @@ class App extends React.Component {
   }
 
   render() {
-    console.log('***state***', this.state);
     return (
       <div className={styles.container}>
-        {console.log(`**styles`, styles)}
-
         <AboutBody
           aboutBody={this.state.aboutBody}
           aboutHeader={this.state.aboutHeader}
