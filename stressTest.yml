@@ -23,7 +23,7 @@ scenarios:
     - post:
         url: "/api/features/"
         json:
-          aboutHeader: "{{"testString"}}"
-          aboutBody: "{{"testString"}}"
-          featuresTitle: "{{"testString"}}"
-          features: "{{"testString"}}"
+          aboutHeader: "{{'testString'}}"
+          aboutBody: "{{'testString'}}"
+          featuresTitle: "{{'testString'}}"
+          features: "{{'testString'}}"
