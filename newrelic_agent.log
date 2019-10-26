@@ -5473,3 +5473,139 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:06:52.005Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:06:52.005Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:06:52.005Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.007Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.008Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.008Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.008Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.008Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:07:52.008Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.011Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.012Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.012Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.012Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.012Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:08:52.012Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.015Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.018Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.018Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.019Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.019Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:09:52.019Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.018Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.020Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.023Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.023Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.023Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:10:52.023Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.021Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.022Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.023Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.023Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.023Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:11:52.023Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.029Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.031Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.031Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.031Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.031Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:12:52.031Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.036Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.037Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.037Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.038Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.038Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:13:52.038Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.042Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.043Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.043Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.043Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.043Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:14:52.043Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.045Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.047Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.047Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.048Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.048Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:15:52.048Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.050Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.051Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.051Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.051Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.051Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:16:52.051Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.054Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.057Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.058Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.059Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.064Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:17:52.066Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.058Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.059Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.059Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.061Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.065Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7381,"time":"2019-10-26T00:18:52.066Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:41.354Z","msg":"Using New Relic for Node.js. Agent version: 5.13.1; Node version: v11.6.0."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:42.156Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/express/index.js\n\tq: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/qs/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:42.156Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:42.317Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:42.317Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:45.347Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:45.347Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID BY0osL3FwDE5ACYsGAvVpY1ds5FsAAgBAAAnIQEAAB5aAgQL1aWLAwAGNS4xMy4xAAtKdXN0aW5zLU1CUAAIRmVhdHVyZXM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:45.347Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2501656/applications/198550923","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:45.348Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":60000,\"harvest_limits\":{\"error_event_data\":100,\"custom_event_data\":1000,\"analytic_event_data\":10000}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:45.351Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.353Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.354Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.355Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.355Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.355Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.356Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:19:46.356Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.434Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.437Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.437Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.438Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.438Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:20:46.438Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.436Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.438Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.438Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.439Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.440Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7770,"time":"2019-10-26T00:21:46.440Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:14.141Z","msg":"Using New Relic for Node.js. Agent version: 5.13.1; Node version: v11.6.0."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:14.283Z","msg":"The newrelic module must be the first module required.\nThe following modules were required before newrelic and are not being instrumented:\n\texpress: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/express/index.js\n\tq: /Users/justinohara/Desktop/SDC/Justin_Features/node_modules/qs/lib/index.js"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:14.283Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:14.416Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:14.416Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:17.448Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:17.448Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID BXcyHxSUYP3sACYsGAvVpY1ds5IgAAgBAAAnIQEAAB6kAgQL1aWLAwAGNS4xMy4xAAtKdXN0aW5zLU1CUAAIRmVhdHVyZXM.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:17.448Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2501656/applications/198550923","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:17.450Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":60000,\"harvest_limits\":{\"error_event_data\":100,\"custom_event_data\":1000,\"analytic_event_data\":10000}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:17.456Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.459Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.460Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.462Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.463Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.463Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.464Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:22:18.464Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.226Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.227Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.227Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.227Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.227Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:23:19.227Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.229Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.231Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.231Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.232Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.232Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:24:19.233Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.233Z","msg":"metric_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.233Z","msg":"error_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.233Z","msg":"error_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.234Z","msg":"transaction_sample_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.234Z","msg":"analytic_event_data Aggregator data send.","component":"base_aggregator"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Justins-MBP","pid":7844,"time":"2019-10-26T00:25:19.234Z","msg":"custom_event_data Aggregator data send.","component":"base_aggregator"}

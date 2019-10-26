@@ -3,7 +3,8 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize('feature', 'power_user', 'root', {
   host: 'ec2-18-191-197-10.us-east-2.compute.amazonaws.com',
   dialect: 'postgres',
-  logging: false
+  logging: false,
+  ssl: true
 });
 
 sequelize
@@ -15,11 +16,13 @@ sequelize
     console.log(err);
   });
 
-sequelize.sync({
-  force: true
-}).then(()=>{
-  console.log('created tables if they do not exist')
-});
+sequelize
+  .sync({
+    force: true
+  })
+  .then(() => {
+    console.log('created tables if they do not exist');
+  });
 
 const Game = sequelize.define('game', {
   id: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true },
