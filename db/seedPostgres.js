@@ -1,5 +1,14 @@
 const { Game } = require('./postgres.js');
 const faker = require('faker');
+const { sequelize } = require('./postgres.js');
+
+sequelize
+  .sync({
+    force: true
+  })
+  .then(() => {
+    console.log('created tables if they do not exist');
+  });
 
 const postgresDataSeed = (index, target) => {
   if (index < target / 1000) {
