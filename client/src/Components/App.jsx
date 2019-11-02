@@ -21,7 +21,7 @@ class App extends React.Component {
     );
   }
   componentDidMount() {
-    console.log('this window id', this.state.gameId);
+    console.log('this window id check check', this.state.gameId);
     this.getAboutThisGameFeaturesData();
     // this.getImage();
     // this.getReviews();
