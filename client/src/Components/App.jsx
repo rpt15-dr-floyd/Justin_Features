@@ -16,9 +16,12 @@ class App extends React.Component {
       features: '',
       featureTitle: ''
     };
-    this.getAboutThisGameFeaturesData = this.getAboutThisGameFeaturesData.bind(this);
+    this.getAboutThisGameFeaturesData = this.getAboutThisGameFeaturesData.bind(
+      this
+    );
   }
   componentDidMount() {
+    console.log('this window id', this.state.gameId);
     this.getAboutThisGameFeaturesData();
     // this.getImage();
     // this.getReviews();
@@ -28,13 +31,11 @@ class App extends React.Component {
   getAboutThisGameFeaturesData() {
     // console.log('getAbouthisGameFeaturesData is ran'); //console log works
 
-    console.log(`component did mount with this id ${this.state.gameId}`);
-
     // console.log('this.state.gameId', this.state.gameId);
     // axios.get(`/api/features/${this.state.gameId}`)
     axios
       .get(
-        `http://ec2-18-218-54-252.us-east-2.compute.amazonaws.com:8081/${this.state.gameId}`
+        `http://ec2-18-218-54-252.us-east-2.compute.amazonaws.com:8081/api/features/${this.state.gameId}`
       )
       // .get(`/api/features/${this.state.gameId}`)
 
