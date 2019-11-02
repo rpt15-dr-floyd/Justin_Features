@@ -30,9 +30,9 @@ app.get('/api/features/:gameId?', (req, res) => {
   Game.findAll({ where: { id: gameId } })
     .then(data => {
       console.log(`you have searched ${gameId}`);
-      res.send(data);
+      res.status(200).send(data);
     })
-    .catch(err => res.send('no id has matched', err));
+    .catch(err => res.status(404).send('no id has matched', err));
 });
 
 app.post('/api/features', (req, res) => {
