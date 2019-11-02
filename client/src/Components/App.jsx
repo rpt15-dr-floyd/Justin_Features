@@ -27,6 +27,8 @@ class App extends React.Component {
   getAboutThisGameFeaturesData() {
     // console.log('getAbouthisGameFeaturesData is ran'); //console log works
 
+    console.log(`component did mount with this id' ${this.state.gameId}`);
+
     // console.log('this.state.gameId', this.state.gameId);
     // axios.get(`/api/features/${this.state.gameId}`)
     axios
