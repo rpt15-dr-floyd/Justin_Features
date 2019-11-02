@@ -10,8 +10,8 @@ const cors = require('cors');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/', express.static('/../')); //loader.io
-app.use('/', express.static('public'));
+app.use('/', express.static(__dirname + '/../')); //loader.io
+// app.use('/', express.static('public'));
 app.use('/:gameId', express.static('public'));
 
 app.use(function(req, res, next) {
