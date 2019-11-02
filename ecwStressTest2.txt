@@ -1,0 +1,155 @@
+** GET 1 RPS **
+All virtual users finished
+Summary report @ 19:44:02(-0700) 2019-11-01
+  Scenarios launched:  60
+  Scenarios completed: 60
+  Requests completed:  60
+  RPS sent: 1.01
+  Request latency:
+    min: 164.6
+    max: 311.8
+    median: 173.1
+    p95: 292.3
+    p99: 310
+  Scenario counts:
+    0: 60 (100%)
+  Codes:
+    200: 60
+
+** GET 10 RPS **
+All virtual users finished
+Summary report @ 19:46:05(-0700) 2019-11-01
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  RPS sent: 9.94
+  Request latency:
+    min: 160.5
+    max: 1447.9
+    median: 171.8
+    p95: 297.6
+    p99: 371.9
+  Scenario counts:
+    0: 600 (100%)
+  Codes:
+    200: 600
+
+** GET 100 RPS **
+  All virtual users finished
+Summary report @ 19:48:43(-0700) 2019-11-01
+  Scenarios launched:  6000
+  Scenarios completed: 6000
+  Requests completed:  6000
+  RPS sent: 97.61
+  Request latency:
+    min: 159.8
+    max: 6482.1
+    median: 413
+    p95: 1544.3
+    p99: 3215.8
+  Scenario counts:
+    0: 6000 (100%)
+  Codes:
+    200: 6000
+
+** GET 1000 RPS **
+All virtual users finished
+Summary report @ 20:05:44(-0700) 2019-11-01
+  Scenarios launched:  60000
+  Scenarios completed: 42841
+  Requests completed:  42841
+  RPS sent: 158.55
+  Request latency:
+    min: 180.9
+    max: 186896.4
+    median: 8307.8
+    p95: 85337
+    p99: 104855.1
+  Scenario counts:
+    0: 60000 (100%)
+  Codes:
+    200: 42841
+  Errors:
+    ECONNRESET: 1007
+    EADDRNOTAVAIL: 9238
+    ENOTFOUND: 9
+    ETIMEDOUT: 2808
+    ESOCKETTIMEDOUT: 4097
+
+** POST 1 RPS **
+All virtual users finished
+Summary report @ 01:00:39(-0700) 2019-11-02
+  Scenarios launched:  60
+  Scenarios completed: 60
+  Requests completed:  60
+  RPS sent: 1.01
+  Request latency:
+    min: 165.4
+    max: 289
+    median: 173.9
+    p95: 270.3
+    p99: 287.2
+  Scenario counts:
+    0: 60 (100%)
+  Codes:
+    202: 60
+
+ ** POST 10 RPS **
+All virtual users finished
+Summary report @ 01:12:58(-0700) 2019-11-02
+  Scenarios launched:  600
+  Scenarios completed: 600
+  Requests completed:  600
+  RPS sent: 9.94
+  Request latency:
+    min: 160
+    max: 1370.3
+    median: 168.9
+    p95: 306.9
+    p99: 449.6
+  Scenario counts:
+    0: 600 (100%)
+  Codes:
+    202: 600
+
+** POST 100 RPS **
+All virtual users finished
+Summary report @ 01:23:34(-0700) 2019-11-02
+  Scenarios launched:  6000
+  Scenarios completed: 6000
+  Requests completed:  6000
+  RPS sent: 96.73
+  Request latency:
+    min: 160
+    max: 11575.6
+    median: 410.5
+    p95: 1953
+    p99: 4032.4
+  Scenario counts:
+    0: 6000 (100%)
+  Codes:
+    202: 6000
+
+ ** POST 1000 RPS **
+    All virtual users finished
+Summary report @ 01:38:56(-0700) 2019-11-02
+  Scenarios launched:  60000
+  Scenarios completed: 44703
+  Requests completed:  44703
+  RPS sent: 159.71
+  Request latency:
+    min: 348.5
+    max: 204328.2
+    median: 8261.6
+    p95: 82781.8
+    p99: 101445.6
+  Scenario counts:
+    0: 60000 (100%)
+  Codes:
+    202: 44703
+  Errors:
+    ECONNRESET: 1304
+    ENOTFOUND: 3
+    EADDRNOTAVAIL: 6025
+    ETIMEDOUT: 3141
+    ESOCKETTIMEDOUT: 4824

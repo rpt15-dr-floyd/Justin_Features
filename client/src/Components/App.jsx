@@ -30,10 +30,10 @@ class App extends React.Component {
     // console.log('this.state.gameId', this.state.gameId);
     // axios.get(`/api/features/${this.state.gameId}`)
     axios
-      // .get(
-      //   `http://my-env.wf8cymc59m.us-west-1.elasticbeanstalk.com/api/features/1`
-      // )
-      .get(`/api/features/${this.state.gameId}`)
+      .get(
+        `http://ec2-18-218-54-252.us-east-2.compute.amazonaws.com:8081/${this.state.gameId}`
+      )
+      // .get(`/api/features/${this.state.gameId}`)
 
       .then(res => {
         // handle data

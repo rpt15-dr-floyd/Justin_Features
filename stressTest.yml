@@ -1,29 +1,29 @@
 config:
-  target: 'http://localhost:1234'
+  target: 'http://ec2-18-218-54-252.us-east-2.compute.amazonaws.com:8081'
   phases:
     # - duration: 60
-    #   arrivalRate: 60
-    #   name: "1 rps"
+    #   arrivalRate: 1
+    #   name: '1 rps'
     # - duration: 60
-    #   arrivalRate: 600
-    #   name: "10 rps"
-    #  - duration: 60
-    #    arrivalRate: 6000
-    #    name: "100 rps"
-      - duration: 60
-        arrivalRate: 60000
-        name: "1000 rps"
+    #   arrivalRate: 10
+    #   name: '10 rps'
+    # - duration: 60
+    #   arrivalRate: 100
+    #   name: '100 rps'
+    - duration: 60
+      arrivalRate: 1000
+      name: "1000 rps"
   defaults:
     # headers:
     #   x-my-service-auth: '987401838271002188298567'
 scenarios:
   - flow:
-    # - get:
-    #     url: "/api/features/{{$randomNumber(9000000,10000000)}}"
-    - post:
-        url: "/api/features/"
-        json:
-          aboutHeader: "{{'testString'}}"
-          aboutBody: "{{'testString'}}"
-          featuresTitle: "{{'testString'}}"
-          features: "{{'testString'}}"
+      # - get:
+      #     url: '/api/features/{{$randomNumber(9000000,10000000)}}'
+      - post:
+          url: '/api/features/'
+          json:
+            aboutHeader: "{{'testString'}}"
+            aboutBody: "{{'testString'}}"
+            featuresTitle: "{{'testString'}}"
+            features: "{{'testString'}}"
