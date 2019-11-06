@@ -5,14 +5,26 @@ const { Game } = require('../db/postgres.js');
 const app = express();
 const cors = require('cors');
 
+const CompressionPlugin = require('compression-webpack-plugin');
+const expressStaticGzip = require('express-static-gzip');
+const BrotliPlugin = require('brotli-webpack-plugin');
+
 //allowing cors
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-
-app.use('/', express.static(__dirname + '/../')); //loader.io
+//gzip and broccoli compressed bundle.js.br and bundle.js.gz
+// app.use('/', express.static(__dirname + '/../')); //loader.io
 // app.use('/', express.static('public'));
-app.use('/:gameId', express.static('public'));
+app.use(
+  '/',
+  expressStaticGzip('public/dist', {
+    enableBrotli: true,
+    orderPreference: ['br', 'gz']
+  })
+);
+
+app.use('/:gameId', express.static('public/dist'));
 
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');

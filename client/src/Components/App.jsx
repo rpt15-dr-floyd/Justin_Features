@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Features from './Features.jsx';
 import AboutBody from './AboutBody.jsx';
-import styles from '../../../public/style.css';
+import styles from '../../../public/dist/style.css';
 
 class App extends React.Component {
   constructor(props) {
