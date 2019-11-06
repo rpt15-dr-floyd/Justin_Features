@@ -16,7 +16,7 @@ const expressStaticGzip = require('express-static-gzip');
 //gzip and broccoli compressed bundle.js.br and bundle.js.gz
 // app.use('/', express.static(__dirname + '/../')); //loader.io
 
-// app.use('/', express.static('public/dist'));
+app.use('/', express.static('public/dist'));
 
 //express is not additive
 app.use(
