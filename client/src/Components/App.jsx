@@ -21,24 +21,18 @@ class App extends React.Component {
     );
   }
   componentDidMount() {
-    console.log('this window id check check', this.state.gameId);
     this.getAboutThisGameFeaturesData();
-    // this.getImage();
-    // this.getReviews();
   }
 
   // getGameData using axios get
   getAboutThisGameFeaturesData() {
-    // console.log('getAbouthisGameFeaturesData is ran'); //console log works
-
-    // console.log('this.state.gameId', this.state.gameId);
-    // axios.get(`/api/features/${this.state.gameId}`)
     axios
+      //ec2 instance
       .get(
         `http://ec2-18-218-54-252.us-east-2.compute.amazonaws.com:8081/api/features/${this.state.gameId}`
       )
+      //local machine
       // .get(`/api/features/${this.state.gameId}`)
-
       .then(res => {
         // handle data
         this.setState({

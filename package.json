@@ -6,7 +6,6 @@
   "scripts": {
     "test": "jest",
     "seed": "node db/seed.js",
-    "start": "nodemon server/index.js",
     "webpack": "webpack -d --watch",
     "seedPostgres": "node db/seedPostgres.js",
     "couchDBSeed": "node db/couchDBseed.js",
@@ -52,6 +51,7 @@
     "psql": "0.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "redis": "^2.8.0",
     "sequelize": "^5.19.2",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.3",
