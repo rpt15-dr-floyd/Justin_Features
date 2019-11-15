@@ -1,13 +1,15 @@
-# RPT15 - FEC - Tabata Yoga
+# RPT15 - FEC - Dr. Floyd
 
-> A clone of the web app, Steam and its page for the Stardew Valley game.
+> This is the Features microservice for the Steam Page Clone
 
-## Related Projects
+## Related Microservice Projects
 
-- https://github.com/teamName/repo
-- https://github.com/teamName/repo
-- https://github.com/teamName/repo
-- https://github.com/teamName/repo
+- https://github.com/rpt15-dr-floyd/Josh_Overview
+- https://github.com/rpt15-dr-floyd/zack-reviews-service
+### Related Proxy Projects
+-https://github.com/rpt15-dr-floyd/Justin_Proxy-Stephen_Clone
+-https://github.com/rpt15-dr-floyd/zack-proxy
+-https://github.com/rpt15-dr-floyd/Josh_Proxy-Stephen_Clone
 
 ## Table of Contents
 
@@ -17,7 +19,39 @@
 
 ## Usage
 
-> Some usage instructions
+
+This App is part of a Steam Page clone.
+This microservice is the features service, which displays the data for the game.
+In order to display the proper data to the user, the endpoints below are used.
+
+### 1.1 API endpoints
+
+- `GET /api/features/:gameId?`
+  - returns data for specific id ( aboutHeader, aboutBody, featureTitle, features)
+- `POST '/api/features/`
+  - post a new game to specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
+- `PUT /api/features/:gameId?`
+  - updates game with specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
+- `DELETE /api/features/:gameId?`
+  - deletes game with specified id
+
+### 1.2 Development SetUp
+This service uses the following dev stack: 
+* Server: node/NPM
+* Deployment: EC2
+* DB: PostgresSql
+* Client: React
+* Important Libraries:
+  * faker.js
+
+### 1.3 PostGres SetUp
+npm run seedPostgres
+
+### 1.4 PostGres SetUp
+
+
+
+
 
 ## Requirements
 
@@ -37,13 +71,4 @@ npm install -g webpack
 npm install
 ```
 
-### 1.1 API endpoints
 
-- `GET /api/features/:gameId?`
-  - returns data for specific id ( aboutHeader, aboutBody, featureTitle, features)
-- `POST '/api/features/`
-  - post a new game to specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
-- `PUT /api/features/:gameId?`
-  - updates game with specified id (within the req.body with: (aboutHeader, aboutBody, featureTitle, features))
-- `DELETE /api/features/:gameId?`
-  - deletes game with specified id
