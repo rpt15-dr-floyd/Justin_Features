@@ -167,6 +167,10 @@ webpack.config.js
 
 ![](GZipBrotli.jpg)
 
+Page Speed Insights after Gzip and Brotli Compression Optimizaiton
+
+![](googleDevSpeed.jpg)
+
 
 ### 1.6.1 Redis Cache
 
