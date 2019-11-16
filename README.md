@@ -8,11 +8,11 @@
 
 - https://github.com/rpt15-dr-floyd/zack-reviews-service
 ### Related Proxy Projects
--https://github.com/rpt15-dr-floyd/Justin_Proxy-Stephen_Clone
+- https://github.com/rpt15-dr-floyd/Justin_Proxy-Stephen_Clone
 
--https://github.com/rpt15-dr-floyd/zack-proxy
+- https://github.com/rpt15-dr-floyd/zack-proxy
 
--https://github.com/rpt15-dr-floyd/Josh_Proxy-Stephen_Clone
+- https://github.com/rpt15-dr-floyd/Josh_Proxy-Stephen_Clone
 
 ## Table of Contents
 
@@ -60,7 +60,7 @@ npm run seedPostgres
 
 |                             | 1rps                      | 10rps                     | 100rps                     | 1000rps                       |
 |-----------------------------|---------------------------|---------------------------|----------------------------|-------------------------------|
-| Loader.io (single instance) | `15 ms` Latency / `0%` errors | `53ms` Latency / `0%` errors | `98ms` Latency / `0%` errors | `224` Latency / `60% +` errors |
+| Loader.io (single instance) | `26 ms` Latency / `0%` errors | `53ms` Latency / `0%` errors | `98ms` Latency / `0%` errors | `224` Latency / `60% +` errors |
 
 ### 3.1.2 With Self-Made Load Balancer - Deployed Load testing (Loader.io)
 
