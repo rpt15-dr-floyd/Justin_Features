@@ -64,6 +64,9 @@ npm run seedPostgres
 
 ### 1.5.1 GZIP and Brotli Bundle Compression Optimization:
 
+GZIP and BROTLI compression for the bundle js, went from 2,856 KB to 667 KB
+
+
 indexPostgres.js file
 ```
 const expressStaticGzip = require('express-static-gzip');
@@ -74,15 +77,17 @@ app.use(
     enableBrotli: true,
     orderPreference: ['br', 'gz']
   })
-);```
+);
+```
 
 webpack.config.js
-
+```
   plugins: [new CompressionPlugin(), new BrotliPlugin()],
   output: {
     filename: 'bundle.js',
     path: __dirname + '/public/dist'
   }
+ ```
 
 ![](GZipBrotli.jpg)
 
@@ -92,15 +97,15 @@ webpack.config.js
 
 - Node 6.13.0
 
-## Development
 
 ### Installing Dependencies
 
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
+npm install -g webpack
+
 ```
 
 
