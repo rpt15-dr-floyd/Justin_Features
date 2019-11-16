@@ -5,11 +5,13 @@
 ## Related Microservice Projects
 
 - https://github.com/rpt15-dr-floyd/Josh_Overview
+
 - https://github.com/rpt15-dr-floyd/zack-reviews-service
 ### Related Proxy Projects
 -https://github.com/rpt15-dr-floyd/Justin_Proxy-Stephen_Clone
 
 -https://github.com/rpt15-dr-floyd/zack-proxy
+
 -https://github.com/rpt15-dr-floyd/Josh_Proxy-Stephen_Clone
 
 ## Table of Contents
