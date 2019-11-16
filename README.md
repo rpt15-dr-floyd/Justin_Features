@@ -64,7 +64,7 @@ npm run seedPostgres
 
 ### 1.5.1 GZIP and Brotli Bundle Compression Optimization:
 
-![](GzipBrotli.jpg)
+![](GZipBrotli.jpg)
 
 
 
