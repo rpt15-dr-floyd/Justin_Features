@@ -60,32 +60,15 @@ npm run seedPostgres
 
 |                             | 1rps                      | 10rps                     | 100rps                     | 1000rps                       |
 |-----------------------------|---------------------------|---------------------------|----------------------------|-------------------------------|
-| Loader.io (single instance) | `26 ms` Latency / `0%` errors | `53ms` Latency / `0%` errors | `98ms` Latency / `0%` errors | `224` Latency / `60% +` errors |
-
-### 3.1.2 With Self-Made Load Balancer - Deployed Load testing (Loader.io)
+| Loader.io (single instance) | `26 ms` Latency / `0%` errors | `24ms` Latency / `0%` errors | `24ms` Latency / `0%` errors | `24` Latency / `0% +` errors |
 
 
-
-|                             | 1rps                      | 10rps                     | 100rps                     | 1000rps                       |
-|-----------------------------|---------------------------|---------------------------|----------------------------|-------------------------------|
-| Loader.io (single instance) | `102ms` Latency / `0%` errors | `432ms` Latency / `0%` errors | `1280ms` Latency / `0%` errors | `2933 wms` Latency / `60% +` errors |
-
-### 3.1.3 With Nginx Load Balancer - Deployed Load testing (Loader.io)
-
-
-
-|                             | 1rps                      | 10rps                     | 100rps                     | 1000rps                       |
-|-----------------------------|---------------------------|---------------------------|----------------------------|-------------------------------|
-| Loader.io (single instance) | `14ms` Latency / `0%` errors | `43ms` Latency / `0%` errors | `128ms` Latency / `0%` errors | `183` Latency / `60% +` errors |
 
 
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
 - Node 6.13.0
-- etc
 
 ## Development
 
