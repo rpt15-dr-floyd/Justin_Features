@@ -222,20 +222,3 @@ app.get('/api/features/:gameId', (req, res) => {
 });
 ```
 
-
-## Requirements
-
-- Node 6.13.0
-
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install
-npm install -g webpack
-
-```
-
-
