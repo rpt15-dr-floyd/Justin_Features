@@ -167,7 +167,7 @@ webpack.config.js
 
 ![](GZipBrotli.jpg)
 
-Page Speed Insights after Gzip and Brotli Compression Optimizaiton
+Page Speed Insights after Gzip and Brotli Compression Optimization
 
 ![](googleDevSpeed.jpg)
 
