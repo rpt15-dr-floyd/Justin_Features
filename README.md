@@ -44,10 +44,12 @@ This service uses the following dev stack:
 * Important Libraries:
   * faker.js
 
-### 1.3 PostGres SetUp
+### 1.3 PostGres Seeding SetUp
 npm run seedPostgres
 
-### 1.4 PostGres SetUp
+### 1.4 Loader.IO Test
+
+![](1000rpsMS.jpg)
 
 
 
