@@ -64,6 +64,26 @@ npm run seedPostgres
 
 ### 1.5.1 GZIP and Brotli Bundle Compression Optimization:
 
+indexPostgres.js file
+```
+const expressStaticGzip = require('express-static-gzip');
+
+app.use(
+  '/:gameId',
+  expressStaticGzip('public/dist', {
+    enableBrotli: true,
+    orderPreference: ['br', 'gz']
+  })
+);```
+
+webpack.config.js
+
+  plugins: [new CompressionPlugin(), new BrotliPlugin()],
+  output: {
+    filename: 'bundle.js',
+    path: __dirname + '/public/dist'
+  }
+
 ![](GZipBrotli.jpg)
 
 
