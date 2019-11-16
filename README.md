@@ -50,11 +50,11 @@ This service uses the following dev stack:
 ### 1.3 PostGres Seeding SetUp
 npm run seedPostgres
 
-### 1.4 Loader.IO Test
+### 1.4.1 Loader.IO Test
 
 ![](1000rpsMS.jpg)
 
-### 3.1.1 Deployed Load testing (Loader.io)
+### 1.4.2 Deployed Load testing (Loader.io)
 
 
 
@@ -62,7 +62,9 @@ npm run seedPostgres
 |-----------------------------|---------------------------|---------------------------|----------------------------|-------------------------------|
 | Loader.io (single instance) | `26 ms` Latency / `0%` errors | `24ms` Latency / `0%` errors | `24ms` Latency / `0%` errors | `24` Latency / `0% +` errors |
 
+### 1.5.1 GZIP and Brotli Bundle Compression Optimization:
 
+![](BrotliGzip.jpg)
 
 
 
