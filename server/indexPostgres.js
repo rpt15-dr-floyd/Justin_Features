@@ -60,6 +60,7 @@ app.use(function(req, res, next) {
 app.get('/api/features/:gameId', (req, res) => {
   let gameId = req.params.gameId;
   console.log(`you have searched ${gameId}`);
+  //test
 
   //using redis cache to check key value pairs to return faster query result times
   // client.get(gameId, (err, val) => {
