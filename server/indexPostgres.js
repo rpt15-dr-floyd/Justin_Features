@@ -63,34 +63,34 @@ app.get('/api/features/:gameId', (req, res) => {
   //test
 
   //using redis cache to check key value pairs to return faster query result times
-  // client.get(gameId, (err, val) => {
-  //   if (err) {
-  //     console.log(err);
-  //   } else if (val) {
-  //     console.log('getting a cache val', val);
-  //     //redis cache makes use of stringified values, so make sure to parse back to front end
-  //     res.status(200).send(JSON.parse(val));
-  //   } else {
-  //     console.log('using sequelize db');
-  //     Game.findAll({ where: { id: gameId } })
-  //       .then(data => {
-  //         console.log(`you have searched ${gameId}`);
-  //         //setting db cache with recently searched data, redis needs stringified values
-  //         client.set(gameId, JSON.stringify(data));
-  //         res.status(200).send(data);
-  //       })
-  //       .catch(err => res.status(404).send('no id has matched', err));
-  //   }
-  // });
+  client.get(gameId, (err, val) => {
+    if (err) {
+      console.log(err);
+    } else if (val) {
+      console.log('getting a cache val', val);
+      //redis cache makes use of stringified values, so make sure to parse back to front end
+      res.status(200).send(JSON.parse(val));
+    } else {
+      console.log('using sequelize db');
+      Game.findAll({ where: { id: gameId } })
+        .then(data => {
+          console.log(`you have searched ${gameId}`);
+          //setting db cache with recently searched data, redis needs stringified values
+          client.set(gameId, JSON.stringify(data));
+          res.status(200).send(data);
+        })
+        .catch(err => res.status(404).send('no id has matched', err));
+    }
+  });
 
-  Game.findAll({ where: { id: gameId } })
-    .then(data => {
-      console.log(`you have searched ${gameId}`);
-      //setting db cache with recently searched data, redis needs stringified values
-      // client.set(gameId, JSON.stringify(data));
-      res.status(200).send(data);
-    })
-    .catch(err => res.status(404).send('no id has matched', err));
+  // Game.findAll({ where: { id: gameId } })
+  //   .then(data => {
+  //     console.log(`you have searched ${gameId}`);
+  //     //setting db cache with recently searched data, redis needs stringified values
+  //     // client.set(gameId, JSON.stringify(data));
+  //     res.status(200).send(data);
+  //   })
+  //   .catch(err => res.status(404).send('no id has matched', err));
 });
 
 //post request
